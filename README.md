@@ -6,4 +6,4 @@ I made this repo just to organise some of my scripts to do some calculation in C
 !! Scipy<br>
 !! Matplotlib<br>
 !! Numpy<br>
-!! Sympy (Most Used)
+!! Sympy A.K.A Calculator on steriods lol(Most Used)

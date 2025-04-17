@@ -11,5 +11,5 @@ eq = sp.Eq(x**2 + 9*x + 1, 0)
 print("Equation:", end=' ')
 print(eq.lhs, '=', eq.rhs)
 print("Solution:", end='\n\n')
-sp.pprint(eq_solver(eq), use_unicode=True)
+sp.pprint(eq_solver(eq))
    

@@ -15,4 +15,4 @@ print(eq2.lhs, '=', eq2.rhs)
 print("")
 print("Solution:", end='\n\n')
 
-sp.pprint(eq_solver(eq1, eq2), use_unicode=True)
+sp.pprint(eq_solver(eq1, eq2))
