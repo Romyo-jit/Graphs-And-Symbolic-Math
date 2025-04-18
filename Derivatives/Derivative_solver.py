@@ -1,8 +1,9 @@
 import sympy as sp
+from sympy import E as e, sin, cos, tan, cot, sec, csc, log, exp, sqrt, pi
 
 x, y = sp.symbols('x y')
 
-fx = sp.asin(sp.E**x**2)
+fx = (sp.E**x)*sp.sin(x)*sp.cos(x)**2
 
 dev_wrt_x = sp.diff(fx, x)
 
